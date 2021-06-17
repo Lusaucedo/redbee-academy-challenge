@@ -12,7 +12,14 @@ public class SumArrayNumbers {
    * @return The result of 1 + 2 + 3
    */
   public static Integer sum(List<Integer> array) {
-    //TODO: Implement me
-    return null;
+	  
+	  Integer result = 0;
+	  
+	  for (Integer num : array) {
+		result = result + num;
+	  }
+	  
+	  return result;
+	  
   }
 }
